@@ -2,7 +2,8 @@
 '''
 Your solution for each function should be only a single line long.
 In particular, you may not use any loops when implementing these functions;
-instead, you must use either the map and filter functions or list comprehensions.
+instead, you must use either the map and filter functions or
+list comprehensions.
 '''
 
 
@@ -26,7 +27,8 @@ def evens(n):
 
 def threes(n):
     '''
-    Returns a list of all numbers from 0 to n inclusive that contain the digit 3.
+    Returns a list of all numbers from 0 to n inclusive that
+    contain the digit 3.
 
     >>> threes(2)
     []
@@ -44,7 +46,8 @@ def threes(n):
 
 def small_words(text):
     '''
-    Returns a list of all words in the input text that are less than 4 characters long.
+    Returns a list of all words in the input text that are less
+    than 4 characters long.
 
     HINT:
     Recall that text.split() converts the text variable into a list of words.
