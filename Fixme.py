@@ -61,7 +61,7 @@ def small_words(text):
     >>> small_words('a big word is bad')
     ['a', 'big', 'word', 'is', 'bad']
     '''
-    return [word for word in text.split() if len(word) < 4]
+    return [word for word in text.split() if len(word) <= 4]
 
 
 def squares(n):
